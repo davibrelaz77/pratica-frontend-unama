@@ -1,0 +1,9 @@
+.radio-tel {
+    display: flex;
+    flex-direction: column;
+    
+}
+.radio-button{
+    display: flex;
+    flex-direction: column;
+}

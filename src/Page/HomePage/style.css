@@ -1,0 +1,15 @@
+
+.one{
+  display: flex;
+  flex-direction:column;
+  
+}
+
+.fone{
+  display: flex;
+  
+  
+}
+.Tel{
+  margin-left: 30px;
+}
