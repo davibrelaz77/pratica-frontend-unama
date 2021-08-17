@@ -1,12 +1,17 @@
 import React from "react";
+import ReactInputMask from "react-input-mask";
 
 
-export function data ({}){
+export function Data ({date, ...outros}){
     return(
-        <div>
-        
-        </div>
-        
-    )
+        <div className = "datanas">
+        <form>
+          <div> 
+           <p htmlFor = "nasc">{date}  </p>
+           <ReactInputMask {...outros}/>
+         </div>
+        </form>
 
+        </div>
+    )
 };

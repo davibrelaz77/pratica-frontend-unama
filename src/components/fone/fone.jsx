@@ -1,12 +1,15 @@
 import React from "react";
 
-export function Fone ({opcao}){
-    return(
 
+export function Fone ({fixo, celular, ...outros}){
+    return(
+    
     <div >
-        <select className = "estilo-fone" >
-            <option value = "Telefone">Fixo</option>
-            <option value = "Celular">Celular</option>
+        <select className = "estilo-fone" {...outros} >
+            
+            <option value = "fixo">{fixo}</option>
+            <option value = "celular">{celular}</option>
+            
         </select> 
 
     </div>
